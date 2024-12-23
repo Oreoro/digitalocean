@@ -1,4 +1,4 @@
-FROM oreoro/urban5:v2
+FROM oreoro/urban5:v3
 
 COPY digitalocean-start.sh /digitalocean-start.sh
 RUN chmod +x /digitalocean-start.sh
